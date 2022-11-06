@@ -10,7 +10,7 @@ try:
     browser.get(link)
 
     time.sleep(2)
-    browser.set_window_size(1352, 715)
+    browser.set_window_size(1519, 745)
     input1 = browser.find_element(By.ID, "userName")
     input1.send_keys("Garry LLoyd Sniff")
     input2 = browser.find_element(By.ID, "userEmail")
